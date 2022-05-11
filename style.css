@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+.bildParent > img {
+  display: block;
+  border: 5px solid white;
+  margin: 30%;
+  margin-top: 260px;
+  position: absolute;
+}
+
+.bildChild li > a {
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  padding: 0.7rem;
+  font-size: 2rem;
+  text-decoration: none;
+  display: block;
+  background-color: antiquewhite;
+  border: 3px solid lightseagreen;
+  width: 200px;
+  border-radius: 2rem;
+  text-align: center;
+  opacity: 80%;
+  margin-bottom: 1rem;
+  top: 350px;
+  left: 62%;
+}
